@@ -1,0 +1,27 @@
+{
+  "name": "@chat/web",
+  "type": "module",
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@ai-sdk/vue": "3.0.116",
+    "@nuxt/ui": "4.5.1",
+    "nuxt": "4.4.2",
+    "tailwindcss": "4.2.1",
+    "ai": "catalog:"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "1.15.2",
+    "eslint": "10.0.3",
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
+  }
+}
